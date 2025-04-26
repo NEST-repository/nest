@@ -1,0 +1,27 @@
+name: nest_env
+channels:
+  - conda-forge
+  - nvidia
+dependencies:
+  # Core Python version
+  - python=3.10
+  
+  # System-level libraries
+  - pip
+  - ncurses
+  - yaml-cpp
+  - libconfig
+  - boost
+  - scons
+  - graphviz
+  - pygraphviz
+  - python-graphviz
+  - gcc_linux-64=11  # GCC 11 for Linux (adjust for your platform)
+  - libcxx
+  - gxx_linux-64=11  # G++ 11 (C++ compiler)
+  
+  # CUDA tools
+  - cuda-tools
+  - cudatoolkit
+  - cudnn
+  - cuda-nvcc
